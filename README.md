@@ -8,30 +8,37 @@ This project predicts the risk of loan default using a **🌳 Decision Tree Clas
 
 ## 📂 **Project Structure**
 
-FINAL PROJECT/
-│
-├── application_train.csv
-│  
-│
-├── app.py
-│   # Streamlit app
-│
-├── best_decision_tree_model.pkl
-│   # Saved trained model
-│
-├── engineered_data.csv
-│   # Cleaned dataset 
-│
-├── project.ipynb
-│   # Jupyter notebook (EDA, training, tuning)
-│
-├── requirements.txt
-│   # Python dependencies
-│
-└── README.md
-    # Project documentation
+Explore how everything fits together below 👇
 
----
+<details>
+<summary>📁 <strong>FINAL PROJECT/</strong> (click to expand)</summary>
+
+├── 📄 application_train.csv
+│ └─ Raw input dataset used for model training
+│
+├── 📄 engineered_data.csv
+│ └─ Preprocessed & cleaned data for better learning
+│
+├── 🧠 best_decision_tree_model.pkl
+│ └─ Saved Decision Tree model (after tuning)
+│
+├── 🚀 app.py
+│ └─ Interactive Streamlit app to test predictions
+│
+├── 📓 project.ipynb
+│ └─ Full EDA + training + pruning + evaluation steps
+│
+├── 📦 requirements.txt
+│ └─ List of dependencies to install the project
+│
+└── 📘 README.md
+└─ You're reading it right now 😄
+
+bash
+Copy
+Edit
+
+</details>
 
 ## 📊 **Dataset**
 
